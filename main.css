@@ -1,0 +1,39 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    border-bottom: 1px black solid;
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+#what {
+    color: blue;
+}
+
+.menu {
+    color: red;
+}
+
+#detech nav {
+    border-right: 1px black solid;
+    width: 100px;
+}
+
+#detech {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+#detech2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.what1 {
+    font-family:cursive;
+}

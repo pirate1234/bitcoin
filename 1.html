@@ -1,36 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitcoin-WHAT</title>
+    <link href="main.css" rel="stylesheet">
 </head>
-<body>
-    <h1><a href="index.html">Bitcoin World</a></h1>
+<h1><a href="index.html">Bitcoin standard</a></h1>
+<div id="detech">
     <nav>
-        <a href="1.html">WHAT</a> |
-        <a href="2.html">HOW</a> |
-        <a href="3.html">HODL</a>
+        <ol>
+            <li> <a href="1.html" class="menu" id="what">WHAT</a></li>
+            <li><a href="2.html" class="menu">HOW</a></li>
+            <li><a href="3.html" class="menu">HODL</a></li>
+        </ol>
     </nav>
 
-    <h2>WHAT</h2>
-    <p>비트코인은 앞으로 매우 희소하고 값비싼 자산이 될 몸이다.</p>
-
     <div>
-    <h3>관련 유튜브 채널</h3>
-    <ul>
-        <li><a href="https://www.youtube.com/c/%EC%8B%A0%EB%B0%95%ED%95%9C%EC%8B%A0%EB%B0%95%EC%82%AC/featured">신박한신박사</a></li>
-        <li><a href="https://www.youtube.com/channel/UCXsGa4ovQRhs2zHMfmGDGdw">사운드머니</a></li>
-        <li><a href="https://www.youtube.com/channel/UCzGUaygjUeV-Zm_DRuFS0pA">지혜의족보</a></li>
-    </ul>
-    </div>
+        <div class="what1">
+            <h2>WHAT</h2>
+            <p>ww비트코인은 앞으로 매우 희소하고 값비싼 자산이 될 몸이다.</p>
+        </div>
+        <div id="detech2">
+            <div>
+                <h3>관련 유튜브 채널</h3>
+                <ul>
+                    <li><a href="https://www.youtube.com/c/%EC%8B%A0%EB%B0%95%ED%95%9C%EC%8B%A0%EB%B0%95%EC%82%AC/featured"
+                            target="_blank">신박한신박사</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCXsGa4ovQRhs2zHMfmGDGdw" target="_blank">사운드머니</a>
+                    </li>
+                    <li><a href="https://www.youtube.com/channel/UCzGUaygjUeV-Zm_DRuFS0pA" target="_blank">지혜의족보</a>
+                    </li>
+                </ul>
+            </div>
 
-    <div>
-    <h3>관련영상</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/pq4lZDtrM1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div>
+                <h3>관련영상</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pq4lZDtrM1U"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
+</div>
+<!-- 디스커스 댓글기능 -->
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://bitcoin-qyvoqxtmkj.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
 
-    <p>BTFD</p>
+<p>BTFD</p>
 </body>
+
 </html>
