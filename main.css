@@ -43,6 +43,7 @@ h1 {
         display: block;
     }
 }
+
 .videowrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 비율인 경우 */
