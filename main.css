@@ -37,3 +37,9 @@ h1 {
 .what1 {
     font-family:cursive;
 }
+
+@media(max-width:880px) {
+    #detech2 {
+        display: block;
+    }
+}
