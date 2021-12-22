@@ -39,22 +39,44 @@ h1 {
 }
 
 @media(max-width:880px) {
-    #detech2 {
+    #detech2{
         display: block;
     }
 }
 
+@media(max-width:570px) {
+    #detech{
+        display: block;
+    }
+    #detech nav{
+        border-bottom: 1px black solid;
+        border-right: 0px;
+        width: 100%;
+        }
+    ol, ul {
+        text-align: center;
+        padding: 0;
+
+    }
+    li {
+        list-style: none;
+        display: inline-block;
+    }
+
+
+}
+
 .videowrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 비율인 경우 */
+    padding-bottom: 56.25%;
+    /* 16:9 비율인 경우 */
     /* padding-bottom값은 4:3 비율인 경우 75%로 설정합니다 */
-    height: 0;
     }
 
 .videowrapper iframe {
     position: absolute;
-    top: 0;
-    left: 0;
+    top:0;
+    left:0;
     width: 100%;
     height: 100%;
     }
