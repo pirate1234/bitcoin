@@ -54,16 +54,15 @@ h1 {
         width: 100%;
         }
     ol, ul {
+        display: flex;
+        justify-content: space-around;
         text-align: center;
         padding: 0;
 
     }
     li {
         list-style: none;
-        display: inline-block;
     }
-
-
 }
 
 .videowrapper {
