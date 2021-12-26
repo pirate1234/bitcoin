@@ -1,81 +1,69 @@
 a {
-    color: black;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 h1 {
-    border-bottom: 1px black solid;
-    font-size: 100px;
-    text-align: center;
-    margin: 0;
-    padding: 10px;
-}
-
-#what {
-    color: blue;
-}
-
-.menu {
-    color: red;
+  border-bottom: 1px black solid;
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
 }
 
 #detech nav {
-    border-right: 1px black solid;
-    width: 100px;
+  border-right: 1px black solid;
+  width: 100px;
 }
 
 #detech {
-    display: grid;
-    grid-template-columns: 150px 1fr;
+  display: grid;
+  grid-template-columns: 150px 1fr;
 }
 
 #detech2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .what1 {
-    font-family:cursive;
+  font-family: cursive;
 }
 
-@media(max-width:880px) {
-    #detech2{
-        display: block;
-    }
+@media (max-width: 880px) {
+  #detech2 {
+    display: block;
+  }
 }
 
-@media(max-width:570px) {
-    #detech{
-        display: block;
-    }
-    #detech nav{
-        border-bottom: 1px black solid;
-        border-right: 0px;
-        width: 100%;
-        }
-    ol, ul {
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-        padding: 0;
-
-    }
-    li {
-        list-style: none;
-    }
+@media (max-width: 570px) {
+  #detech {
+    display: block;
+  }
+  #detech nav {
+    border-bottom: 1px black solid;
+    border-right: 0px;
+    width: 100%;
+  }
+  ol,
+  ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
 }
 
 .videowrapper {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9 비율인 경우 */
-    /* padding-bottom값은 4:3 비율인 경우 75%로 설정합니다 */
-    }
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 비율인 경우 */
+  /* padding-bottom값은 4:3 비율인 경우 75%로 설정합니다 */
+}
 
 .videowrapper iframe {
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    }
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
